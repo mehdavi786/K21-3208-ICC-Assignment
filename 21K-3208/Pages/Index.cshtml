@@ -1,0 +1,72 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Cloud Computing";
+}
+
+<style>
+    .intro {
+        background-color: #e8f5e9;
+        border-left: 5px solid #43a047;
+        padding: 20px;
+        margin-bottom: 30px;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    .benefits {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .benefit-item {
+        flex-basis: calc(50% - 20px);
+        background-color: #e6f7ff;
+        border-radius: 5px;
+        padding: 15px;
+        margin-bottom: 20px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+        color: #2e7d32;
+        font-size: 2.2em;
+        margin-bottom: 15px;
+    }
+</style>
+
+<div class="container">
+    <div class="intro">
+        <h2>Introduction to Cloud Computing</h2>
+        <p>Cloud computing is a technology that allows users to access and use computing resources (such as servers, storage, databases, networking, software, and more) over the internet. Instead of owning and maintaining physical hardware and infrastructure, businesses and individuals can rent these resources from cloud service providers on a pay-as-you-go basis.</p>
+    </div>
+
+    <h2>Benefits of Cloud Computing</h2>
+    <div class="benefits">
+        <div class="benefit-item">
+            <h3>Cost Efficiency</h3>
+            <p>Reduce capital expenses on hardware and infrastructure. Pay only for the resources you use.</p>
+        </div>
+        <div class="benefit-item">
+            <h3>Scalability</h3>
+            <p>Easily scale resources up or down based on demand, ensuring optimal performance during peak times.</p>
+        </div>
+        <div class="benefit-item">
+            <h3>Flexibility</h3>
+            <p>Access your data and applications from anywhere with an internet connection, enabling remote work and collaboration.</p>
+        </div>
+        <div class="benefit-item">
+            <h3>Reliability</h3>
+            <p>Cloud providers offer robust backup and disaster recovery solutions, ensuring your data is safe and your services remain available.</p>
+        </div>
+        <div class="benefit-item">
+            <h3>Automatic Updates</h3>
+            <p>Cloud providers handle system maintenance and updates, ensuring you always have access to the latest features and security patches.</p>
+        </div>
+        <div class="benefit-item">
+            <h3>Innovation</h3>
+            <p>Access to cutting-edge technologies like AI, machine learning, and big data analytics without significant upfront investment.</p>
+        </div>
+    </div>
+</div>

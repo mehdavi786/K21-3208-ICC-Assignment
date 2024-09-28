@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ICC Assingment\\21K-3208\\21K-3208\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FE13D419-3E02-46F9-BA4E-1D30E9688188}|21K-3208\\21K-3208.csproj|d:\\icc assingment\\21k-3208\\21k-3208\\21k-3208\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE13D419-3E02-46F9-BA4E-1D30E9688188}|21K-3208\\21K-3208.csproj|solutionrelative:21k-3208\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE13D419-3E02-46F9-BA4E-1D30E9688188}|21K-3208\\21K-3208.csproj|d:\\icc assingment\\21k-3208\\21k-3208\\21k-3208\\pages\\evolution.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE13D419-3E02-46F9-BA4E-1D30E9688188}|21K-3208\\21K-3208.csproj|solutionrelative:21k-3208\\pages\\evolution.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE13D419-3E02-46F9-BA4E-1D30E9688188}|21K-3208\\21K-3208.csproj|d:\\icc assingment\\21k-3208\\21k-3208\\21k-3208\\pages\\models.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE13D419-3E02-46F9-BA4E-1D30E9688188}|21K-3208\\21K-3208.csproj|solutionrelative:21k-3208\\pages\\models.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Evolution.cshtml",
+              "DocumentMoniker": "D:\\ICC Assingment\\21K-3208\\21K-3208\\21K-3208\\Pages\\Evolution.cshtml",
+              "RelativeDocumentMoniker": "21K-3208\\Pages\\Evolution.cshtml",
+              "ToolTip": "D:\\ICC Assingment\\21K-3208\\21K-3208\\21K-3208\\Pages\\Evolution.cshtml",
+              "RelativeToolTip": "21K-3208\\Pages\\Evolution.cshtml",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAiwFoAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-28T16:22:41.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Models.cshtml",
+              "DocumentMoniker": "D:\\ICC Assingment\\21K-3208\\21K-3208\\21K-3208\\Pages\\Models.cshtml",
+              "RelativeDocumentMoniker": "21K-3208\\Pages\\Models.cshtml",
+              "ToolTip": "D:\\ICC Assingment\\21K-3208\\21K-3208\\21K-3208\\Pages\\Models.cshtml",
+              "RelativeToolTip": "21K-3208\\Pages\\Models.cshtml",
+              "ViewState": "AQIAACYAAAAAAAAAAAAAADIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-28T16:22:38.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ICC Assingment\\21K-3208\\21K-3208\\21K-3208\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "21K-3208\\Pages\\Index.cshtml",
+              "ToolTip": "D:\\ICC Assingment\\21K-3208\\21K-3208\\21K-3208\\Pages\\Index.cshtml",
+              "RelativeToolTip": "21K-3208\\Pages\\Index.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-28T16:21:14.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

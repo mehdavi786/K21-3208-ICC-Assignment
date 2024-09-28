@@ -1,0 +1,85 @@
+﻿@page
+@model _21K_3208.Pages.ModelsModel
+@{
+    ViewData["Title"] = "Models";
+}
+
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 1.6;
+        color: #333;
+        background-color: #f9f9f9;
+    }
+    
+    .intro {
+        background-color: #e8f5e9;
+        border-left: 5px solid #43a047;
+        padding: 20px;
+        margin-bottom: 30px;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    .models {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .model-item {
+        flex-basis: calc(50% - 20px);
+        background-color: #ffffff;
+        border-radius: 8px;
+        padding: 20px;
+        margin-bottom: 25px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+        border-left: 5px solid #1e88e5;
+        transition: transform 0.3s ease;
+    }
+    .model-item:hover {
+        transform: translateY(-5px);
+    }
+    .model-item img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 15px;
+        border-radius: 8px;
+    }
+    h2 {
+        color: #2e7d32;
+        font-size: 2.2em;
+        margin-bottom: 15px;
+    }
+    .model-item h3 {
+        color: #1565c0;
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+    p {
+        margin-bottom: 10px;
+        font-size: 1.05em;
+    }
+</style>
+<div class="container">
+    <div class="intro">
+        <h2>Cloud Computing Models</h2>
+        <p>Cloud computing services are typically offered in three main models, each providing different levels of control, flexibility, and management. Understanding these models helps organizations choose the right type of cloud services for their needs.</p>
+    </div>
+    <div class="models">
+        <div class="model-item">
+            <h3>Infrastructure as a Service (IaaS)</h3>
+            <p>IaaS provides virtualized computing resources over the internet. It offers the highest level of flexibility and management control over your IT resources. Examples include Amazon EC2, Microsoft Azure VMs, and Google Compute Engine.</p>
+        </div>
+        <div class="model-item">
+            <h3>Platform as a Service (PaaS)</h3>
+            <p>PaaS provides a platform allowing customers to develop, run, and manage applications without the complexity of maintaining the infrastructure. Examples include Heroku, Google App Engine, and Microsoft Azure App Services.</p>
+        </div>
+        <div class="model-item">
+            <h3>Software as a Service (SaaS)</h3>
+            <p>SaaS delivers software applications over the internet, on-demand and typically on a subscription basis. Examples include Salesforce, Google Workspace, and Microsoft 365.</p>
+        </div>
+        <div class="model-item">
+            <h3>Function as a Service (FaaS)</h3>
+            <p>FaaS, also known as serverless computing, allows developers to execute code in response to events without managing the underlying infrastructure. Examples include AWS Lambda, Azure Functions, and Google Cloud Functions.</p>
+        </div>
+    </div>
+</div>

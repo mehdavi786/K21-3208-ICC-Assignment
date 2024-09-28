@@ -1,0 +1,91 @@
+﻿@page
+@model PrivacyModel
+@{
+    ViewData["Title"] = "Evolution of Cloud Computing";
+}
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 1.6;
+        color: #333;
+        background-color: #f9f9f9;
+    }
+
+    .intro {
+        background-color: #e8f5e9;
+        border-left: 5px solid #43a047;
+        padding: 20px;
+        margin-bottom: 30px;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    .timeline {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .era {
+        flex-basis: calc(100% - 20px);
+        background-color: #ffffff;
+        border-radius: 8px;
+        padding: 20px;
+        margin-bottom: 25px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+        border-left: 5px solid #1e88e5;
+        transition: transform 0.3s ease;
+    }
+
+        .era:hover {
+            transform: translateY(-5px);
+        }
+
+    h2 {
+        color: #2e7d32;
+        font-size: 2.2em;
+        margin-bottom: 15px;
+    }
+
+    .era h3 {
+        color: #1565c0;
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+
+    p {
+        margin-bottom: 10px;
+        font-size: 1.05em;
+    }
+</style>
+<div class="container">
+    <div class="intro">
+        <h2>Evolution of Cloud Computing</h2>
+        <p>Cloud computing has undergone significant evolution since its inception. This timeline highlights key developments and shifts in cloud technology and adoption.</p>
+    </div>
+    <div class="timeline">
+        <div class="era">
+            <h3>1960s-1970s: Mainframe Computing</h3>
+            <p>The concept of shared computing resources emerged with mainframes, allowing multiple users to access centralized computing power.</p>
+        </div>
+        <div class="era">
+            <h3>1990s: Grid Computing</h3>
+            <p>Grid computing introduced the idea of leveraging multiple computers to solve complex problems, laying groundwork for distributed computing.</p>
+        </div>
+        <div class="era">
+            <h3>Early 2000s: Utility Computing</h3>
+            <p>The concept of offering computing resources as a metered service, similar to traditional utilities like electricity or water, gained traction.</p>
+        </div>
+        <div class="era">
+            <h3>Mid-2000s: Cloud Computing Emerges</h3>
+            <p>Amazon Web Services (AWS) launched in 2006, marking the beginning of modern cloud computing. Google and Microsoft soon followed with their own cloud platforms.</p>
+        </div>
+        <div class="era">
+            <h3>2010s: Cloud Adoption and Diversification</h3>
+            <p>Cloud services expanded rapidly, with the emergence of public, private, and hybrid cloud models. SaaS, PaaS, and IaaS became established service models.</p>
+        </div>
+        <div class="era">
+            <h3>Late 2010s-Present: Serverless and Edge Computing</h3>
+            <p>Serverless computing and edge computing emerge as new paradigms, pushing cloud capabilities closer to end-users and enabling more efficient resource utilization.</p>
+        </div>
+    </div>
+</div>
